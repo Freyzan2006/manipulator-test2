@@ -4,7 +4,7 @@ import re
 
 
 
-# Функция для генерации истории
+
 def generate_history(original_command: str, optimized_command: str, before_position: str, after_position: str) -> dict:
     from datetime import datetime
     return {
